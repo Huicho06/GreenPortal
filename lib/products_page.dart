@@ -212,7 +212,7 @@ class _ProductsPageState extends State<ProductsPage> {
             TextButton(
               child: Text('Cerrar Sesión'),
               onPressed: () {
-                Navigator.pushNamedAndRemoveUntil(context, '/home1', (route) => false);
+                  Navigator.of(context).pushReplacementNamed('/');
               },
             ),
           ],
