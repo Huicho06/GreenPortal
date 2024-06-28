@@ -213,6 +213,7 @@ class _ProductsPageState extends State<ProductsPage> {
               child: Text('Cerrar Sesión'),
               onPressed: () {
                   Navigator.of(context).pushReplacementNamed('/');
+
               },
             ),
           ],

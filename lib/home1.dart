@@ -20,13 +20,13 @@ class HomePage1 extends StatelessWidget {
             onSelected: (value) {
               if (value == 'Cerrar Sesión') {
                 _showLogoutDialog(context);
-              } else if (value == 'CRUD Productos') {
+              } else if (value == 'Gestión de Productos') {
                 Navigator.pushNamed(context, '/product');
               }
             },
             itemBuilder: (BuildContext context) {
               return {
-                if (userType == 1) 'CRUD Productos',
+                if (userType == 1) 'Gestión de Productos',
                 'Cerrar Sesión'
               }.map((String choice) {
                 return PopupMenuItem<String>(

@@ -187,7 +187,7 @@ class _ProductPageState extends State<ProductPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Crud Producto'),
+        title: Text('Gestión de Productos'),
         actions: [
           PopupMenuButton<String>(
             onSelected: (value) {
