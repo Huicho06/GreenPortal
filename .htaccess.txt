@@ -1,0 +1,5 @@
+# Permitir acceso a todos los archivos
+<FilesMatch "\.(php|html|css|js|jpg|png|gif)$">
+  Order Allow,Deny
+  Allow from all
+</FilesMatch>
